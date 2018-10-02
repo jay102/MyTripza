@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/relative_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/lagos1"
-    tools:context=".SplashActivity">
+    android:orientation="vertical"
+    android:id="@+id/lin_lay">
 
     <FrameLayout
         android:id="@+id/fragment_main_container"
@@ -15,7 +15,7 @@
         android:visibility="gone" />
 
     <ImageView
-        android:id="@+id/app_image_view"
+        android:id="@+id/splash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -23,5 +23,5 @@
         android:src="@drawable/logo2" />
 
 
-  >
-</RelativeLayout>
+
+</LinearLayout>

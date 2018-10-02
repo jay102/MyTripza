@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyTripza</string>
+    <string name="offer_ride">Offer a Ride</string>
+    <string name="book_ride">Book a Ride</string>
+    <string name="verification">Verification</string>
+    <string name="txt1">Enter your mobile number \n "         "to receive OTP.</string>
+    <string name="txt2">Enter your mobile number.</string>
 </resources>
