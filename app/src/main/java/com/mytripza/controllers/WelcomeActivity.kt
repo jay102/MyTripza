@@ -1,5 +1,6 @@
 package com.mytripza.controllers
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
@@ -25,5 +26,9 @@ class WelcomeActivity : AppCompatActivity() {
                 flags or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
             window.decorView.systemUiVisibility = flags
         }
+    }
+
+    fun bookARide(view : View) {
+        startActivity(Intent(this, Main2Activity::class.java))
     }
 }

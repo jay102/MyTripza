@@ -7,5 +7,8 @@
     <string name="txt1">Enter your mobile number \n "         "to receive OTP.</string>
     <string name="txt2">Get Moving with MYTRIPZA \n "         "Verify your mobile.</string>
     <string name="content_description_for_logos">Logo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
 
