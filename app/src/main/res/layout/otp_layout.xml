@@ -56,6 +56,7 @@
 
                     <ImageView
                         android:id="@+id/logo"
+                        android:contentDescription="@string/content_description_for_logos"
                         android:layout_width="wrap_content"
                         android:layout_height="150dp"
                         android:scaleType="centerCrop"
@@ -158,7 +159,7 @@
                 android:textSize="12sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/submit"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/checkBox"
