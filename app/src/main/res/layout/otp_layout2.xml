@@ -176,7 +176,7 @@
                 android:layout_below="@+id/submit_otp2"
                 android:layout_marginTop="-48dp"
                 android:text="Didn't receive the "
-                android:textSize="20sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/txt2"
@@ -187,7 +187,7 @@
                 android:layout_toEndOf="@+id/txt1"
                 android:text="OTP?"
                 android:textColor="@color/welcomeBlue"
-                android:textSize="20sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -197,7 +197,7 @@
                 android:layout_centerHorizontal="true"
                 android:text="Resend code"
                 android:textColor="@color/welcomeBlue"
-                android:textSize="20sp" />
+                android:textSize="15sp" />
 
         </RelativeLayout>
 
